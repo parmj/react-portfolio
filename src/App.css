@@ -27,7 +27,7 @@
  body {
    /* background-color: #F5F6Fa ! important; */
    background: linear-gradient(90deg, rgba(17,8,45,1) 0%, rgba(14,7,36,1) 100%);
-   font-family : CircularStd;
+   font-family : CircularStd !important;
    color:white !important;
  }
 
@@ -194,10 +194,6 @@ li {
   justify-content: center;
 }
 
-.projects h3 {
-  padding-bottom: 15px !important;
-}
-
 .projects img {
   width: 65%;
 }
@@ -208,6 +204,12 @@ li {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+}
+
+.projects-item h3 {
+  background-color: #6600ff;
+  padding: 15px;
+  margin: 30px;
 }
 
 .project-item-desc p {
@@ -233,8 +235,12 @@ li {
   padding-top: 10px;
 }
 
-.purple {
-  color: #6600ff !important;
+.purple-bg {
+  background-color: #6600ff !important;
+  padding: 3px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 50%;
 }
 /* CONTACT ME */
 

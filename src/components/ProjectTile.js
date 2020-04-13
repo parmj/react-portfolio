@@ -14,17 +14,20 @@ const ProjectTile = props => (
                         <p>QuizBizz is an interactive app where users can join rooms to answer a host's questions in realtime. This application was built on the MERN stack.</p>
                         <ButtonGroup toggle className="pt-3">
                             <ToggleButton type="radio" name="radio" defaultChecked value="1" size="sm" className="project-tag">
-                            Active
+                            Node
                             </ToggleButton>
                             <ToggleButton type="radio" name="radio" value="2" size="sm" className="project-tag">
-                            Radio
+                            React
                             </ToggleButton>
                             <ToggleButton type="radio" name="radio" value="3" size="sm" className="project-tag">
-                            Radio
+                            MongoDB
+                            </ToggleButton>
+                            <ToggleButton type="radio" name="radio" value="3" size="sm" className="project-tag">
+                            Socket.io
                             </ToggleButton>
                         </ButtonGroup>
                         <ul className="pt-3">
-                            <li><i class="fa fa-github purple icon"></i></li>
+                            <li><i class="fa fa-github purple-bg icon"></i></li>
                         </ul>
                     </div>
                     <img src="./quizbizz.png"></img>
@@ -35,57 +38,31 @@ const ProjectTile = props => (
 
         <Col>
             <div className="projects-item">
-                <h2>Movie Data Aalysis</h2>
+                <h3>Movie Data Aalysis</h3>
                 <div className="d-flex project-item-desc">
-                    <img src="./time_genre.png"></img>
                     <div className="pl-4">
-                        <p>What makes a movie succsseful? I took a look into rotten tomoates and IMDB data to find the answers!</p>
+                        <p>What makes a movie succsseful? I took a look into rotten tomoates and IMDB data to find the answers! Using statistical tests and analysis on our data, we were able to determine that genre had the biggest impact on box office revenues. </p>
                         <ButtonGroup toggle className="pt-3">
                             <ToggleButton type="radio" name="radio" defaultChecked value="1" size="sm" className="project-tag">
-                            Active
+                            Python
                             </ToggleButton>
                             <ToggleButton type="radio" name="radio" value="2" size="sm" className="project-tag">
-                            Radio
+                            Numpy
                             </ToggleButton>
                             <ToggleButton type="radio" name="radio" value="3" size="sm" className="project-tag">
-                            Radio
+                            Pandas
                             </ToggleButton>
                         </ButtonGroup>
                         <ul className="pt-3">
-                            <li><i class="fa fa-github purple icon"></i></li>
+                            <li><i class="fa fa-github purple-bg icon"></i></li>
                         </ul>
                     </div>
-                </div>
-                
-            </div>
-        </Col>
-        <Col>
-            <div className="projects-item">
-                <h3>Reeplay</h3>
-                <div className="d-flex project-item-desc">
-                    <div>
-                        <p>What makes a movie succsseful? I took a look into rotten tomoates and IMDB data to find the answers!</p>
-                        <ButtonGroup toggle className="pt-3">
-                            <ToggleButton type="radio" name="radio" defaultChecked value="1" size="sm" className="project-tag">
-                            Active
-                            </ToggleButton>
-                            <ToggleButton type="radio" name="radio" value="2" size="sm" className="project-tag">
-                            Radio
-                            </ToggleButton>
-                            <ToggleButton type="radio" name="radio" value="3" size="sm" className="project-tag">
-                            Radio
-                            </ToggleButton>
-                        </ButtonGroup>
-                        <ul className="pt-3">
-                            <li><i class="fa fa-github purple icon"></i></li>
-                        </ul>
-                    </div>
-                    <img src="./reeplay.png"></img>
-                </div>
-                
-            </div>
-        </Col>
+                    <img src="./time_genre.png"></img>
 
+                </div>
+                
+            </div>
+        </Col>
     </div>
     </ScrollAnimation>
 
