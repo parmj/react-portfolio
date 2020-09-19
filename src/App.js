@@ -78,15 +78,15 @@ function App() {
       <div className="contact-me d-flex justify-content-center">
         <div className="d-flex flex-column align-items-center pt-3">
             <h2 className="p-2">Resume</h2>
-            <i class="fa fa-file icon"></i>
+            <i className="fa fa-file icon"></i>
         </div>
         <h2 className="d-flex align-items-center p-3"></h2>
         <div className="d-flex flex-column align-items-center pt-3">
           <h2 className="p-2">Contact Me</h2>
           <ul className="d-flex justify-content-center align-items-center">
-            <li><i class="fa fa-github icon "></i></li>
-            <li><i class="fa fa-linkedin icon"></i></li>
-            <li><i class="fa fa-envelope icon"></i></li>
+            <li><i className="fa fa-github icon "></i></li>
+            <li><i className="fa fa-linkedin icon"></i></li>
+            <li><i className="fa fa-envelope icon"></i></li>
           </ul>
         </div>
       </div>

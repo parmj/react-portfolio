@@ -2,7 +2,7 @@ import React from "react";
 import {Navbar, Nav, NavDropdown } from 'react-bootstrap'
 
 const Person = props => (
-    <Navbar expand="lg" variant="dark" className="bg-primarytwo" fixed="top">
+    <Navbar expand="md" variant="dark" className="bg-primarytwo" fixed="top">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

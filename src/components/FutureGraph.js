@@ -33,7 +33,7 @@ const FutureGraph = props => (
             >
 
                 <div className="d-flex align-items-center dp-flex">
-                    <i class="fa fa-question-circle"></i>
+                    <i className="fa fa-question-circle"></i>
                     <div>
                         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">*Your Company*</h4>

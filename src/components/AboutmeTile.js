@@ -10,7 +10,7 @@ const AboutmeTile = props => (
             <h3>Parm Johal</h3>
             <p>4th Year CompSci Student</p>
         </div>
-        <div class="arrow bounce">
+        <div className="arrow bounce">
             <FontAwesomeIcon icon={faChevronDown} />
         </div>
     </Col>
